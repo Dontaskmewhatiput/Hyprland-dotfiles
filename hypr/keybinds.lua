@@ -21,6 +21,8 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind(minMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(minMod .. " + S", hl.dsp.exec_cmd(game_launcher))
 
+-- Fullscreen
+hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 
 -- Move focus with subMod + vim keys
 hl.bind(subMod .. " + H", hl.dsp.focus({ direction = "left" }))
