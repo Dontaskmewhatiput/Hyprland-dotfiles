@@ -1,12 +1,19 @@
 
 Hyprland
 ----------
-  Tidy up configs\
-  Make the config more universal\
-  rather than tailored for one person
-----------
+Make configs more universal
+Tidy up configs
+
 Future ideas
 ----------
-  Waybar\
-  An app launcher\
-  ~~Shower~~
+  An app launcher (Temporarily done, just copied someone's config)\
+  ~~Shower~~_
+
+Waybar
+----------
+  Power button widget
+  Workspaces
+  Date/Time in DD-MM-YY format
+  Bluetooth widget
+  Audio widget
+
