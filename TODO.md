@@ -2,7 +2,7 @@
 Hyprland
 ----------
 Make configs more universal\
-Tidy up configs\
+Tidy up configs
 
 Future ideas
 ----------
@@ -15,5 +15,5 @@ Waybar
   Workspaces\
   Date/Time in DD-MM-YY format\
   Bluetooth widget\
-  Audio widget\
+  Audio widget
 
