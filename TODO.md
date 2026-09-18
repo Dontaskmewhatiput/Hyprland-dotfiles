@@ -1,19 +1,19 @@
 
 Hyprland
 ----------
-Make configs more universal
-Tidy up configs
+Make configs more universal\
+Tidy up configs\
 
 Future ideas
 ----------
-  An app launcher (Temporarily done, just copied someone's config)\
+  An app launcher (Temporarily done, just copied someone's rofi config)\
   ~~Shower~~_
 
 Waybar
 ----------
-  Power button widget
-  Workspaces
-  Date/Time in DD-MM-YY format
-  Bluetooth widget
-  Audio widget
+  Power button widget\
+  Workspaces\
+  Date/Time in DD-MM-YY format\
+  Bluetooth widget\
+  Audio widget\
 
