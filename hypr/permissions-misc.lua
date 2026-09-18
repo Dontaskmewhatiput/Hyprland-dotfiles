@@ -30,10 +30,25 @@ hl.env("HYPRCURSOR_SIZE", "24")
 ----------------
 
 hl.config({
-    misc = {
-        force_default_wallpaper = 0,    -- Set to 0 or 1 to disable the anime mascot wallpapers
-        disable_hyprland_logo   = true, -- If true disables the random hyprland logo / anime girl background. :(
-    },
+  misc = {
+    force_default_wallpaper = 0,    -- Set to 0 or 1 to disable the anime mascot wallpapers
+    disable_hyprland_logo   = true, -- If true disables the random hyprland logo / anime girl background. :(
+  },
+  xwayland = {
+    force_zero_scaling = true,
+  },
+  input = {
+    repeat_rate = 25,
+    repeat_delay = 150,
+  },
 })
-
-
+hl.window_rule({
+  name = "Fullscreen-game-content",
+  match = { content = "game" },
+  fullscreen_state = "2 2",
+})
+hl.window_rule({
+  name = "Fullscreen-steam-games",
+  match = { class = "^(steam)app).*)$" },
+  fullscreen_state = "2 2",
+})

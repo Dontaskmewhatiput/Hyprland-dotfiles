@@ -29,7 +29,7 @@ hl.bind(subMod .. " + K", hl.dsp.focus({ direction = "up" }))
 hl.bind(subMod .. " + J", hl.dsp.focus({ direction = "down" }))
 
 -- Resize windows with mainMod + SHIFT + vim movement
-local resizeStep = 15
+local resizeStep = 20
 hl.bind(mainMod .. " + SHIFT + H", hl.dsp.window.resize({ x = -resizeStep, y = 0, relative = true }),
   { repeating = true })
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.window.resize({ x = resizeStep, y = 0, relative = true }), { repeating = true })
