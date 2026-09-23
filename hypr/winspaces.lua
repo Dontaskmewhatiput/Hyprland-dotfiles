@@ -48,4 +48,5 @@ hl.window_rule({
   float = true,
 })
 
-hl.workspace_rule({ workspace = "name:main", monitor = "DP-1", default = true })
+-- Change monitor = "" to whichever display outplay is preferred
+-- hl.workspace_rule({ workspace = "name:main", monitor = "DP-1", default = true })
