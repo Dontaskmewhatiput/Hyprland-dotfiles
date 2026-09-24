@@ -35,8 +35,9 @@ local resizeStep = 20
 hl.bind(mainMod .. " + SHIFT + H", hl.dsp.window.resize({ x = -resizeStep, y = 0, relative = true }),
   { repeating = true })
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.window.resize({ x = resizeStep, y = 0, relative = true }), { repeating = true })
-hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.resize({ x = 0, y = resizeStep, relative = true }), { repeating = true })
-hl.bind(mainMod .. " + SHIFT + J", hl.dsp.window.resize({ x = 0, y = -resizeStep, relative = true }),
+hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.resize({ x = 0, y = -resizeStep, relative = true }),
+  { repeating = true })
+hl.bind(mainMod .. " + SHIFT + J", hl.dsp.window.resize({ x = 0, y = resizeStep, relative = true }),
   { repeating = true })
 
 -- Move windows around with mainMod + ALT + vim movement
