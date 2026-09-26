@@ -19,8 +19,7 @@ game_launcher = "steam"
 
 -- Autostart processes
 hl.on("hyprland.start", function()
-  -- hl.exec_cmd("waybar")
-  -- Pick your own font here
+  hl.exec_cmd("waybar")
   hl.exec_cmd("swaybg -o DP-1 -i ~/Gallery/Wallpapers/Lake-1.png")
   hl.exec_cmd("swaybg -o HDMI-A-1 -i ~/Gallery/Wallpapers/city-skyline.jpg")
   hl.exec_cmd("gsettings set org.gnome.desktop.interface font-name 'Monolisa 11'")

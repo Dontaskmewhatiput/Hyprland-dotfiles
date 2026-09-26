@@ -43,6 +43,10 @@ hl.config({
     repeat_rate = 25,
     repeat_delay = 150,
   },
+  cursor = {
+    default_monitor = "DP-1",
+    no_hardware_cursors = 1,
+  }
 })
 hl.window_rule({
   name = "Fullscreen-game-content",
