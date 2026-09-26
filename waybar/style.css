@@ -16,7 +16,8 @@ window#waybar {
 #orbit,
 #workspaces,
 #clock,
-#pulseaudio #tray {
+#pulseaudio,
+#tray {
   background-color: #1e1e2e;
   padding: 4px 12px;
   margin: 0 4px;
