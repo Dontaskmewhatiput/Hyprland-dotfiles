@@ -9,7 +9,6 @@
   "margin-right": 10,
   "margin-left": 10,
   "modules-left": [
-    "tray",
     "clock"
   ],
   "modules-center": [
@@ -28,11 +27,19 @@
   },
   "pulseaudio": {
     "format": " {volume}%",
-    "on-click": "pavucontrol",
+    "on-click": "pavucontrol"
   },
   "hyprland/workspaces": {
     "all-outputs": true,
     "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "󰇧"
+    },
     "persistent-workspaces": {
       "*": [
         1,
@@ -45,7 +52,7 @@
   },
   "custom/orbit": {
     "exec": "orbit waybar-status",
-    "format": "󰖩",
+    "format": "",
     "return-type": "json",
     "interval": 10,
     "on-click": "orbit toggle top-right"
@@ -53,6 +60,6 @@
   "custom/power": {
     "format": "󰐥",
     "tooltip": false,
-    "on-click": "wlogout -b 2"
+    "on-click": "~/.config/rofi/powermenu/powermenu.sh"
   }
 }

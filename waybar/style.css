@@ -7,83 +7,94 @@
   min-height: 0;
 }
 
-
 window#waybar {
   background-color: transparent;
   color: #ffffff;
 }
 
 #orbit,
-#workspaces,
 #clock,
 #pulseaudio,
 #tray {
-  background-color: #1e1e2e;
+  background-color: rgba(255, 255, 255, 0.08);
   padding: 4px 12px;
   margin: 0 4px;
-  border-radius: 8px;
-  border: 1px solid #313244;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+#workspaces {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 0px 6px;
+  margin: 3px 4px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  min-height: 0;
 }
 
 #workspaces button {
-  padding: 0 6px;
-  color: #a6adc8;
+  padding: 0px 10px;
+  margin: 2px 0px;
+  font-size: 16px;
+  min-width: 0;
+  min-height: 0;
+  color: rgba(255, 255, 255, 0.4);
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow: none;
 }
 
 #workspaces button:hover {
-  background-color: #313244;
-  color: #cdd6f4;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
 }
 
 #workspaces button.active {
-  color: #89b4fa;
-  background-color: #45475a;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 #clock {
-  color: #89b4fa;
-  border-color: #45475a;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.22);
   padding: 4px 12px;
   margin: 0 4px;
-  border-radius: 8px;
-  border: 1px solid #313244;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-#custom-orbit-wifi {
+#custom-orbit,
+#custom-orbit-wifi,
+#custom-power {
   font-family: "Monolisa", "Noto Sans Nerd Font", "JetBrainsMono Nerd Font", sans-serif;
-  color: #cba6f7;
-  background-color: #1e1e2e;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.08);
   padding: 0 12px;
-  margin: 0 4px;
-  border-radius: 8px;
+  margin: 3px 4px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   font-weight: bold;
-  border: 1px solid #313244;
-}
-
-/* Hover effect */
-#custom-orbit-wifi:hover {
-  background-color: #313244;
-  color: #b4befe;
-}
-
-#custom-orbit-wifi.connected {
-  color: #a6e3a1;
-}
-
-#custom-orbit-wifi.disconnected {
-  color: #f38ba8;
+  min-width: 0;
+  min-height: 0;
 }
 
 #custom-power {
-  background-color: white;
-  color: #11111b;
-  border-radius: 12px;
-  padding: 2px 10px;
-  margin: 4px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0 10px;
 }
 
+#custom-orbit:hover,
+#custom-orbit-wifi:hover,
 #custom-power:hover {
-  background-color: grey;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+#custom-orbit-wifi.connected,
+#custom-orbit-wifi.disconnected {
+  color: #ffffff;
 }
